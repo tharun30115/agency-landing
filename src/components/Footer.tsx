@@ -10,7 +10,7 @@ const Footer = () => {
             Work together seamlessly with real-time updates and communication.
           </span>
           <a href="#" className="text-white text-[20px] opacity-[0.75]">
-            Team Conditional & Policy
+            made with ✨ by <a href="https://github.com/tharun30115" target="_blank">tharun</a>
           </a>
         </div>
         {footerLinks.map((link) => (
@@ -38,7 +38,7 @@ const Footer = () => {
         <div className="w-[90%] mx-auto h-[1px] bg-white/35" />
 
         <div className="text-center text-white/50 text-[20px] ubuntu mt-[45px]">
-          ©solve. all right reserve
+          ©solve. all right reserved
         </div>
       </div>
     </div>

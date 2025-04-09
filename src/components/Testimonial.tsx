@@ -17,9 +17,9 @@ const Testimonial = () => {
           </span>
           <div className="w-full flex items-center justify-between">
             <span className="flex flex-col">
-              <span className="text-white font-semibold text-[28px]">John Doe</span>
+              <span className="text-white font-semibold text-[28px]">rice</span>
               <span className="text-white font-medium text-lg opacity-[0.50]">
-                Team Lead of xyz Company
+                Team Lead of X Company
               </span>
             </span>
             <img src={arrowRight} alt="arrowRight" className="w-[90px] cursor-pointer" />
