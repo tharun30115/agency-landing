@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-navbar: rgba(255, 255, 255, 0.05);
+  --color-fadedbtn: rgba(255, 255, 255, 0.1);
+  --color-primary: #5f00ff;
+  --color-fadedbox: rgba(255, 255, 255, 0.25);
+  --color-secondary: #8740ff;
+  --color-barshadow: rgba(210, 183, 255, 0.15);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #050020;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+.ubuntu {
+  font-family: "Ubuntu", sans-serif !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #150061 !important;
+  border-radius: 5px;
+}
